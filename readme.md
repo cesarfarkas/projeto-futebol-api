@@ -25,17 +25,17 @@ projeto-futebol/
 
 Essa estrutura representa um projeto básico em PHP que provavelmente utiliza uma arquitetura MVC (Model-View-Controller) simplificada. Aqui está um detalhamento do que cada parte provavelmente representa:
 
-    * .env: Arquivo de variáveis de ambiente. Não deve ser incluído no controle de versão.
-    * config.php: Arquivo de configuração para conexões com o banco de dados, chaves de API, etc.
-    * public/: Diretório acessível pela web. index.php é o ponto de entrada para a aplicação.
-    * readme.md: Este arquivo, fornecendo informações sobre o projeto.
-    * src/: Diretório de código fonte.
-    * cache/: Diretório para dados em cache (provavelmente arquivos JSON neste caso).
-    * Cache.php: Classe para lidar com o cache.
-    * Controllers/: Contém classes de controlador (por exemplo, MatchController.php provavelmente lida com requisições relacionadas a partidas).
-    * Models/: Contém classes de modelo (por exemplo, MatchModel.php provavelmente interage com o banco de dados para dados de partidas).
-    * Router.php: Lida com o roteamento de requisições para os controladores apropriados.
-    * Views/: Contém templates de visualização (por exemplo, home.php provavelmente exibe a página inicial).
+* .env: Arquivo de variáveis de ambiente. Não deve ser incluído no controle de versão.
+* config.php: Arquivo de configuração para conexões com o banco de dados, chaves de API, etc.
+* public/: Diretório acessível pela web. index.php é o ponto de entrada para a aplicação.
+* readme.md: Este arquivo, fornecendo informações sobre o projeto.
+* src/: Diretório de código fonte.
+* cache/: Diretório para dados em cache (provavelmente arquivos JSON neste caso).
+* Cache.php: Classe para lidar com o cache.
+* Controllers/: Contém classes de controlador (por exemplo, MatchController.php provavelmente lida com requisições relacionadas a partidas).
+* Models/: Contém classes de modelo (por exemplo, MatchModel.php provavelmente interage com o banco de dados para dados de partidas).
+* Router.php: Lida com o roteamento de requisições para os controladores apropriados.
+* Views/: Contém templates de visualização (por exemplo, home.php provavelmente exibe a página inicial).
 
 
 ## Configuração e Execução
