@@ -12,10 +12,6 @@ projeto-futebol/
 ├── readme.md
 └── src/
     ├── cache/
-    │   ├── 0c0c1e28b213ff3905358ef34a477c2b.json
-    │   ├── abc38f71fe00a6b2c6faa225009fdc8c.json
-    │   ├── ae562a3166b90c693f8a0c749ba6337f.json
-    │   └── f9b56a6cfb39aacfdb13f7f638803f75.json
     ├── Cache.php
     ├── Controllers/
     │   └── MatchController.php
