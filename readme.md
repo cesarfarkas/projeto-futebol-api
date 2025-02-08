@@ -4,6 +4,7 @@ Este é um projeto desenvolvido para uma entrevista de emprego. Ele utiliza a AP
 
 ## Estrutura de Pastas
 
+```shell
 projeto-futebol/
 ├── .env
 ├── config.php
@@ -20,6 +21,7 @@ projeto-futebol/
     ├── Router.php
     └── Views/
         └── home.php
+```
 
 Essa estrutura representa um projeto básico em PHP que provavelmente utiliza uma arquitetura MVC (Model-View-Controller) simplificada. Aqui está um detalhamento do que cada parte provavelmente representa:
 
