@@ -109,7 +109,7 @@
                     <td><img src="${match.teams.away.logo}" alt="${match.teams.away.name}" height="20" /> ${match.teams.away.name}</td>
                     <td scope="col">${match.goals && match.goals.home !== null && match.goals.away !== null ? `${match.goals.home} x ${match.goals.away}` : 'não jogaram'}</td>
                     <td>${new Date(match.fixture.date).toLocaleDateString('pt-BR', {year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric'})}</td>
-                    <td>${match.fixture.venue?.name || 'N/A'}</td>
+                    <td>${match.fixture.venue?.name.replace('Estádio ', '') || 'N/A'}</td>
                 </tr>`;
                 matchTableBody.innerHTML += row;
             })
