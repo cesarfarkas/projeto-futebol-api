@@ -102,7 +102,7 @@
         }
         const currentMatches = matches.slice(startIndex, endIndex);
         
-        currentMatches ? (
+        currentMatches && currentMatches.length > 0 ? (
             currentMatches.forEach(match => {
                 const row = `<tr>
                     <td><img src="${match.teams.home.logo}" alt="${match.teams.home.name}" height="20" /> ${match.teams.home.name}</td>
@@ -114,7 +114,7 @@
                 matchTableBody.innerHTML += row;
             })
         ) : (
-            matchTableBody.innerHTML = '<tr><td colspan="4">Nenhum resultado encontrado.</td></tr>'
+            matchTableBody.innerHTML += '<tr><td colspan="5">Nenhum resultado encontrado.</td></tr>'
         );
     }
 
